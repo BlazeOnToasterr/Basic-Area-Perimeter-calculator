@@ -1,1 +1,4 @@
-This is the full version. I might update soon. 
+This is the Basic version. Updates will keep dropping.
+Finding perimeter of triangle is not exactly perfect since it asks alue of all 3 sides and equations usually dont mention all 3 sides (will work on a fix).
+The only reason i used C++ instead of a rather easier program for this task like python is just because I am trying to get used to C++.
+
