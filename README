@@ -1,4 +1,39 @@
 This is the Basic version. Updates will keep dropping.
 Finding perimeter of triangle is not exactly perfect since it asks alue of all 3 sides and equations usually dont mention all 3 sides (will work on a fix).
 The only reason i used C++ instead of a rather easier program for this task like python is just because I am trying to get used to C++.
+<===========================Patch_28-05-2022===========================>
+Changes:
+  <> Explaination for the Perimeter of Cicle has been more simplified 
+      (Take 5 as radius)
+  
+      Before: For finding the Perimeter of the circle, the formula is 2 * Pi * R. In this situation
+              5 * 3.14 * 2 = 31.4
+      
+      After:  For finding the Perimeter of the circle, the formula is 2 * Pi * R. In this situation
+              2 * 3.14 * 5 = 31.4
+      
+      Why did I do this?
+      answer: The formula mentions 2 * Pi * R and the format of answer previously (5 * 3.14 * 2) makes the formula more confusing.
+  
+  
+  
+  <> Added a Reuse function
+    Before: Your Answer is: 1
+    Do you want to know how to find the answer to this problem?
+    Type '1' if yes
+    Type '2' if no
+    2
+    Task has ended
+    
+    After: Your Answer is: 1
+    Do you want to know how to find the answer to this problem?
+    Type '1' if yes
+    Type '2' if no
+    2
+    Okay!
+    Do you want to reuse this task?
+    Type '1' if yes
+    type '2' if no
+    
+    *********************************************************************************
 
