@@ -36,6 +36,10 @@ Changes:
     Do you want to reuse this task?
     Type '1' if yes
     type '2' if no
-    
+
+We have noted: 
+  <> Finding perimeter of triangle requires you to enter all 3 sides of the triangle.
+  <> The Program looks very confusing in the terminal.
+  
     *********************************************************************************
 
