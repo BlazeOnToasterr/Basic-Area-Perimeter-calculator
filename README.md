@@ -9,7 +9,7 @@
 # Patch
  <br /> <===========================Patch_28-05-2022===========================> <br /> <br />
   Changes: <br />
-    <> Explaination for the Perimeter of Cicle has been more simplified <br />
+    <> Explaination for the Perimeter of Circle has been more simplified <br />
         (Take 5 as radius) <br /> <br />
        Before: For finding the Perimeter of the circle, the formula is 2 * Pi * R. In this situation <br />
                 5 * 3.14 * 2 = 31.4 <br /> <br />
