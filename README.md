@@ -7,7 +7,34 @@
   
  
 # Patch
- <br /> <===========================Patch_28-05-2022===========================> <br /> <br />
+<br /> <===========================Patch_29-05-2022===========================> <br /> <br />
+  Changes: <br />
+    <> All Explainations have been Uniformed. <br />
+      (Take 5 as base and height) <br /> <br />
+      before: Area of triangle= in this situation: 5 * 5 and divide it by half = 12.5 <br />
+              Perimeter of triangle= in this situation: 5&ensp; * &ensp;5 and divide it by half = 12.5 <br />
+      <br /> After: Area of triangle= in this situation: 5  *  5 and divide it by half = 12.5 <br />
+             Perimeter of triangle=   in this situation: 5  *  5 and divide it by half = 12.5 <br />
+              <br /> (This might not look like a big change but it looks less complex.)  <br /> <br /> <br /> 
+    <> The Program is more spacious <br />
+      Before: In this equation,  <br />
+        The formula of finding the area of a Triangle is base multiplied by height multiplied by half. <br />
+        in this situation: 5 * 5 and divide it by half = 12.5 <br /> 
+        Do you want to reuse this task? <br />
+        Type '1' if yes <br /> 
+        type '2' if no <br />
+      <br /> After: In this equation,  <br />
+        The formula of finding the area of a Triangle is base multiplied by height multiplied by half. <br />
+        in this situation: 5 * 5 and divide it by half = 12.5 <br /> <br />
+        Do you want to reuse this task? <br /> 
+        Type '1' if yes <br /> 
+        type '2' if no <br /> <br /> 
+        (There are several more similar changes to make it look simple and spacious) <br /> 
+        We have noted: <br />
+    <> Finding perimeter of triangle requires you to enter all 3 sides of the triangle. <br />
+        ********************************************************************************* <br />  <br /> 
+
+<br /> <===========================Patch_28-05-2022===========================> <br /> <br />
   Changes: <br />
     <> Explaination for the Perimeter of Circle has been more simplified <br />
         (Take 5 as radius) <br /> <br />
