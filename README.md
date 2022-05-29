@@ -1,4 +1,4 @@
-                                                  <Basic Area-Perimeter Calculater> 
+                                                  <Basic Area-Perimeter Calculator> 
 # information                                                  
   <> This is the Basic version. Updates will keep dropping. <br />
   <> Program: C++ <br />
