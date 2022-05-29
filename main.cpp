@@ -3,8 +3,8 @@
 
 void functionName(){
      
-        std::cout << "Hello!!! Welcome to the Area or perimeter finders with understanding the concepts behind the problems. Happy cheating!" << std::endl;
-            std::cout << "<==========Selection==========>\n" << std::endl;
+        std::cout << "\n<=============================================================>\n\nHello!!! Welcome to the Area or perimeter finders with understanding the concepts behind the problems. Happy learning!\n" << std::endl;
+            std::cout << "<==========Selection==========>" << std::endl;
 
         int aop;
         std::cout << "are you trying to find a perimeter or an area. \n Type '1' for finding Area \n Type '2' to find perimeter" << std::endl;
@@ -27,11 +27,11 @@ void functionName(){
                 std::cin >> at2; 
                 atr = {at1 * at2 * 0.5};
                 std::cout << "Your Answer is: " << atr << std::endl;
-                std::cout << "Do you want to know how to find the answer to this problem?\n Type '1' if yes\n Type '2' if no " << std::endl;
+                std::cout << "\nDo you want to know how to find the answer to this problem?\n Type '1' if yes\n Type '2' if no " << std::endl;
                 std::cin >> howat;
                 if (howat == 1) {
-                    std::cout << "<===========Solution===========>" << std::endl;
-                    std::cout << "In this equation\n The formula of finding the area of a Triangle is base multiplied by height multiplied by half.\n in this situation we: " << at1 << "*" << at2 << "and divide it by half =" << atr << std::endl;
+                    std::cout << "\n<===========Solution===========>" << std::endl;
+                    std::cout << "In this equation,\n The formula of finding the area of a Triangle is base multiplied by height multiplied by half.\n in this situation: " << at1 << " * " << at2 << " and divide it by half = " << atr << std::endl;
                 } 
                 if (howat == 2) {
                     std::cout << "Okay!" << std::endl; 
@@ -49,11 +49,11 @@ void functionName(){
                 std::cin >> ar2;
                 arr = {ar1 * ar2};
                 std::cout << "Your Answer is: " << arr << std::endl;
-                std::cout << "Do you want to know how to find the answer to this problem?\n Type '1' if yes\n Type '2' if no " << std::endl;
+                std::cout << "\nDo you want to know how to find the answer to this problem?\n Type '1' if yes\n Type '2' if no " << std::endl;
                 std::cin >> howar;
                 if (howar == 1){
-                    std::cout << "<===========Solution===========>" << std::endl;
-                    std::cout << "In this equation\n The formula of finding the area of a Rectangle is length multiplied by breadth.\n in this situation we: " << ar1 << "*" << ar2 << "=" << arr << std::endl;
+                    std::cout << "\n<===========Solution===========>" << std::endl;
+                    std::cout << "In this equation\n The formula of finding the area of a Rectangle is length multiplied by breadth.\n in this situation: " << ar1 << " * " << ar2 << " = " << arr << std::endl;
                     }
                 if (howar == 2) {
                     std::cout << "Okay!" << std::endl;  
@@ -67,11 +67,11 @@ void functionName(){
                 std::cin >> as1;
                 asr = {as1 * as1};
                 std::cout << "Your answer is: " << asr << std::endl;
-                std::cout << "Do you want to know how to find the answer to this problem?\n Type '1' if yes\n Type '2' if no " << std::endl;
+                std::cout << "\nDo you want to know how to find the answer to this problem?\n Type '1' if yes\n Type '2' if no " << std::endl;
                 std::cin >> howas;
                 if (howas == 1) {
-                    std::cout << "<===========Solution===========>" << std::endl;
-                    std::cout << "In this equation\n The formula of finding the area of a Square is side multiplied by side.\n in this situation we: " << as1 << "*" << as1 << "=" << asr << std::endl;
+                    std::cout << "\n<===========Solution===========>" << std::endl;
+                    std::cout << "In this equation\n The formula of finding the area of a Square is side multiplied by side.\n in this situation: " << as1 << " * " << as1 << " = " << asr << std::endl;
                     }
                 if (howas == 2) {
                     std::cout << "Okay!" << std::endl;    
@@ -85,11 +85,11 @@ void functionName(){
                 std::cin >> ac1f;
                 acrf = {ac1f * ac1f * 3.14};
                 std::cout << "Your answer is: " << acrf << std::endl; 
-                std::cout << "Do you want to know how to find the answer to this problem?\n Type '1' if yes\n Type '2' if no " << std::endl;
+                std::cout << "\nDo you want to know how to find the answer to this problem?\n Type '1' if yes\n Type '2' if no " << std::endl;
                 std::cin >> howacf;
                 if (howacf == 1) {
-                    std::cout << "<===========Solution===========>" << std::endl;
-                    std::cout << "In this equation,\n The formula of finding the area of a Circle is Pi*r*r(Radius). \n In this situation we: 3.14 * " << ac1f << " * " << ac1f << " = " << acrf << std::endl;   
+                    std::cout << "\n<===========Solution===========>" << std::endl;
+                    std::cout << "In this equation,\n The formula of finding the area of a Circle is Pi*r*r(Radius). \n In this situation: 3.14 * " << ac1f << " * " << ac1f << " = " << acrf << std::endl;   
                 }
                 if (howacf == 2) {
                     std::cout << "Okay!" << std::endl;    
@@ -116,11 +116,11 @@ void functionName(){
                 std::cin >> pt3;
                 ptr = {pt1 + pt2 + pt3};
                 std::cout << "Your answer is: " << ptr << std::endl;
-                std::cout << "Do you want to know how to find the answer to this problem?\n Type '1' if yes\n Type '2' if no " << std::endl;
+                std::cout << "\nDo you want to know how to find the answer to this problem?\n Type '1' if yes\n Type '2' if no " << std::endl;
                 std::cin >> howpt;
                 if (howpt == 1) {
-                    std::cout << "<===========Solution===========>" << std::endl;
-                    std::cout << "The formula to find The Perimeter of the triangle is Side A + B + C. In this situation: " << pt1 << " + " << pt2 << " + " << pt3 << " = " << ptr << std::endl;     
+                    std::cout << "\n<===========Solution===========>" << std::endl;
+                    std::cout << "The formula to find The Perimeter of the triangle is Side A + B + C.\n In this situation: " << pt1 << " + " << pt2 << " + " << pt3 << " = " << ptr << std::endl;     
                     }
                 if (howpt == 2) {
                     std::cout << "Okay!" << std::endl;    
@@ -137,11 +137,11 @@ void functionName(){
                 std::cin >> pr2;
                 prr = {2*(pr1 + pr2)};
                 std::cout << "Your answer is: " << prr << std::endl;
-                std::cout << "Do you want to know how to find the answer to this problem?\n Type '1' if yes\n Type '2' if no " << std::endl;
+                std::cout << "\nDo you want to know how to find the answer to this problem?\n Type '1' if yes\n Type '2' if no " << std::endl;
                 std::cin >> howpr;
                 if (howpr == 1) {
-                    std::cout << "<===========Solution===========>" << std::endl;
-                    std::cout << " The formula to find the Perimeter of the rectangle is l+b*2. In this situation\n" << pr1 << " + " << pr2 << " * 2 = " << prr << std::endl; 
+                    std::cout << "\n<===========Solution===========>" << std::endl;
+                    std::cout << "The formula to find the Perimeter of the rectangle is l + b * 2.\n In this situation: " << pr1 << " + " << pr2 << " * 2 = " << prr << std::endl; 
                 }
                 if (howpr == 2) {
                     std::cout << "Okay!" << std::endl;    
@@ -155,11 +155,11 @@ void functionName(){
                 std::cin >> ps1;
                 psr = { ps1 * 4 };
                 std::cout << "Your answer is: " << psr << std::endl;
-                std::cout << "Do you want to know how to find the answer to this problem?\n Type '1' if yes\n Type '2' if no " << std::endl;
+                std::cout << "\nDo you want to know how to find the answer to this problem?\n Type '1' if yes\n Type '2' if no " << std::endl;
                 std::cin >> howps;
                 if (howps == 1) {
-                    std::cout << "<===========Solution===========>" << std::endl;
-                    std::cout << "The formula to find the perimeter of a square is Side * 4. In this situation\n" << ps1 << " * 4 = " << psr << std::endl;                     
+                    std::cout << "\n<===========Solution===========>" << std::endl;
+                    std::cout << "The formula to find the perimeter of a square is Side * 4. \nIn this situation: " << ps1 << " * 4 = " << psr << std::endl;                     
                 }
                 if (howps == 2) {
                     std::cout << "Okay!" << std::endl;    
@@ -173,11 +173,11 @@ void functionName(){
                 std::cin >> pc1;
                 pcr = { 2 * 3.14 * pc1};
                 std::cout << "Your answer is: " << pcr << std::endl;
-                std::cout << "Do you want to know how to find the answer to this problem?\n Type '1' if yes\n Type '2' if no " << std::endl;
+                std::cout << "\nDo you want to know how to find the answer to this problem?\n Type '1' if yes\n Type '2' if no " << std::endl;
                 std::cin >> howpc;
                  if (howpc == 1) {
-                    std::cout << "<===========Solution===========>" << std::endl;
-                    std::cout << "For finding the Perimeter of the circle, the formula is 2 * Pi * R. In this situation\n" << "2 * 3.14 * " << pc1  << " = " << pcr << std::endl;
+                    std::cout << "\n<===========Solution===========>" << std::endl;
+                    std::cout << "For finding the Perimeter of the circle, the formula is 2 * Pi * R.\n In this situation: " << "2 * 3.14 * " << pc1  << " = " << pcr << std::endl;
                 }
                 if (howpc == 2) {
                     std::cout << "Okay!" << std::endl;
@@ -190,7 +190,7 @@ int main(){
     functionName();
     int check;
     while(1){
-    std::cout << "Do you want to reuse this task? \n Type '1' if yes \n type '2' if no" << std::endl;
+    std::cout << "\nDo you want to reuse this task? \n Type '1' if yes \n type '2' if no" << std::endl;
     std::cin >> check;
     if(check==1){
         functionName();
