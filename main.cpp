@@ -7,7 +7,7 @@ void functionName(){
             std::cout << "<==========Selection==========>" << std::endl;
 
         int aop;
-        std::cout << "are you trying to find a perimeter or an area. \n Type '1' for finding Area \n Type '2' to find perimeter" << std::endl;
+        std::cout << "are you trying to find a perimeter or an area. \n Type '1' for finding Area \n Type '2' to find perimeter \n Type '3' for using all operations (+.-,*,/)" << std::endl;
         std::cin >> aop;
     //Area of Triangle
         if (aop == 1) { 
@@ -119,7 +119,7 @@ void functionName(){
                 std::cout << "\nDo you want to know how to find the answer to this problem?\n Type '1' if yes\n Type '2' if no " << std::endl;
                 std::cin >> howpt;
                 if (howpt == 1) {
-                    std::cout << "\n<===========Solution===========>" << std::endl;
+                    std::cout << "\n<===========Solution===========> " << std::endl;
                     std::cout << "The formula to find The Perimeter of the triangle is Side A + B + C.\n In this situation: " << pt1 << " + " << pt2 << " + " << pt3 << " = " << ptr << std::endl;     
                     }
                 if (howpt == 2) {
@@ -183,6 +183,33 @@ void functionName(){
                     std::cout << "Okay!" << std::endl;
                 }
             } 
+        }
+        if (aop == 3) { //Operations
+            double ao1; //all operatations 1
+            double ao2;
+            double aor;
+            std::cout << "Enter 1st number for operation: " << std::endl;
+            std::cin >> ao1;
+            std::cout << "Enter 2nd number for operation: " << std::endl;
+            std::cin >> ao2;
+            aor = (ao1 - ao2);
+            std::cout << "\n<===========Substraction===========>" << std::endl;
+            std::cout << "Your 1st Substraction result is: " << ao1 << " - " << ao2 << " = " << aor << std::endl;
+            aor = (ao2 - ao1); 
+            std::cout << "Your 2nd Substraction result is: " << ao2 << " - " << ao1 << " = " << aor << std::endl;
+            std::cout << "\n<=============Addition=============>" << std::endl;
+            aor = (ao1 + ao2);
+            std::cout << "Your Addition result is: " << ao1 << " + " << ao2 << " = " << aor << std::endl;
+            std::cout << "\n<=============Division=============>" << std::endl;
+            aor = (ao1 / ao2);
+            std::cout << "Your 1st Division result is: " << ao1 << " / " << ao2 << " = " << aor << std::endl;
+            aor = (ao2 / ao1);
+            std::cout << "Your 2nd Division result is: " << ao2 << " / " << ao1 << " = " << aor << std::endl;
+            std::cout << "\n<==========Multiplication==========>" << std::endl;
+            aor = (ao1 * ao2);
+            std::cout << "Your Multiplication result is: " << ao1 << " * " << ao2 << " = " << aor << std::endl;
+             
+            
         }
     
 } 
