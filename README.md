@@ -7,6 +7,37 @@
   
  
 # Patch
+<br /> <===========================Patch_01-06-2022===========================> <br /> <br />
+<> Added new Operations <br />
+  Before: <==========Selection==========> <br />
+          are you trying to find a perimeter or an area. <br />
+          Type '1' for finding Area <br />
+          Type '2' to find perimeter <br /> <br />
+  After:  <==========Selection==========>  <br />
+          are you trying to find a perimeter or an area. <br />
+         Type '1' for finding Area <br />
+          Type '2' to find perimeter <br /> 
+          Type '3' for using all operations (+.-,*,*) <br />
+          3 <br />
+Enter 1st number for operation: <br />
+5 <br />
+Enter 2nd number for operation: <br />
+10 <br /> <br />
+
+<===========Substraction===========> <br />
+Your 1st Substraction result is: 5 - 10 = -5 <br />
+Your 2nd Substraction result is: 10 - 5 = 5 <br /> <br />
+
+<=============Addition=============> <br /> 
+Your Addition result is: 5 + 10 = 15 <br /> <br />
+
+<=============Division=============> <br />
+Your 1st Division result is: 5 / 10 = 0.5 <br /> 
+Your 2nd Division result is: 10 / 5 = 2 <br /> <br />
+
+<==========Multiplication==========> <br />
+Your Multiplication result is: 5 * 10 = 50 <br /> 
+*********************************************************************************  <br />  <br /> 
 <br /> <===========================Patch_29-05-2022===========================> <br /> <br />
   Changes: <br />
     <> All Explainations have been Uniformed. <br />
