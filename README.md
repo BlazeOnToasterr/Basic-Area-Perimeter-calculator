@@ -13,11 +13,11 @@ Before:  <br />
 are you trying to find a perimeter or an area. <br />
  Type '1' for finding Area <br />
  Type '2' to find perimeter <br />
- Type '3' for using all operations (+.-,*,/)    <br />
+ Type '3' for using all operations     <br />
  After: <br />
  Type '1' for finding Area <br />
  Type '2' to find perimeter <br />
- Type '3' for using all operations (+.-,*,/) <br />
+ Type '3' for using all operations  <br />
  Type '4' for converting Fractions to decimals <br />
  *********************************************************************************  <br />  <br /> 
 <br /> <===========================Patch_01-06-2022===========================> <br /> <br />
