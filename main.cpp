@@ -7,7 +7,7 @@ void functionName(){
             std::cout << "<==========Selection==========>" << std::endl;
 
         int aop;
-        std::cout << "are you trying to find a perimeter or an area. \n Type '1' for finding Area \n Type '2' to find perimeter \n Type '3' for using all operations (+.-,*,/)" << std::endl;
+        std::cout << "are you trying to find a perimeter or an area. \n Type '1' for finding Area \n Type '2' to find perimeter \n Type '3' for using all operations (+.-,*,/)\n Type '4' for converting Fractions to decimals" << std::endl;
         std::cin >> aop;
     //Area of Triangle
         if (aop == 1) { 
@@ -207,12 +207,28 @@ void functionName(){
             std::cout << "Your 2nd Division result is: " << ao2 << " / " << ao1 << " = " << aor << std::endl;
             std::cout << "\n<==========Multiplication==========>" << std::endl;
             aor = (ao1 * ao2);
-            std::cout << "Your Multiplication result is: " << ao1 << " * " << ao2 << " = " << aor << std::endl;
-             
-            
+            std::cout << "Your Multiplication result is: " << ao1 << " * " << ao2 << " = " << aor << std::endl;    
         }
-    
-} 
+        if (aop == 4){ //Fraction to decimal or Decimal to fraction 
+                        int howftd;
+                double ftdn; //fraction to decimal numerater
+                double ftdd; //fraction to decimal denominater
+                double dec;
+                std::cout << "\n<===========Problem===========>" << std::endl;
+                std::cout << "Please enter the numerater of the fraction: " << std::endl;
+                std::cin >> ftdn;
+                std::cout << "please enter the denominater of the fraction: " << std::endl;
+                std::cin >> ftdd;
+                dec = (ftdn/ftdd);
+                std::cout << "Your Answer is: " << dec << std::endl;
+                std::cout << "\n<===========Solution===========>" << std::endl;
+                std::cout << "\nDo you want to know how to find the answer to this problem?\n Type '1' if yes\n Type '2' if no " << std::endl;
+                std::cin >> howftd;
+                if (howftd == 1) {
+                    std::cout << "To convert a fraction into a decimal we must Divide the numerater and denominater. So in this case: \n" << ftdn << " / " << ftdd << " = " << dec << std::endl;
+        }
+        }
+        }       
 int main(){
     functionName();
     int check;
